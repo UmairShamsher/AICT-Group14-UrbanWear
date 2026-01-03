@@ -5,10 +5,148 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Product Price List | UrbanWear</title>
+
 </head>
 
 <body>
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/svg+xml" href="./images/header/favicon.svg">
 
+    <style>
+        body {
+            background-image: url("./images/header/headerprod.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            background: rgba(0, 0, 0, 0.6);
+            margin-top: 40px;
+        }
+
+        th,
+        td {
+            border: 1px solid #aaa;
+            padding: 12px;
+            text-align: center;
+            color: antiquewhite;
+        }
+
+        th {
+            background-color: #0C2340;
+            font-size: 18px;
+        }
+
+        caption {
+            font-size: 28px;
+            margin-bottom: 20px;
+            font-weight: bold;
+        }
+    </style>
+    </head>
+
+    <!-- HEADER -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./images/header/complogo.png" width="225" alt="Urban Wear">
+                    </a>
+                </div>
+
+                <nav>
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="index.html">Home</a></li>
+                        <li class="nav-item"><a href="products.html">Products</a></li>
+                        <li class="nav-item"><a href="table.html">Price List</a></li>
+                        <li class="nav-item"><a href="#footer">Contact Us</a></li>
+                    </ul>
+                </nav>
+
+                <img class="cart" src="./images/header/cart.svg" alt="Cart">
+            </div>
+        </div>
+    </div>
+
+    <!-- TABLE SECTION -->
+    <div class="container">
+        <table>
+            <caption>Urban Wear Product Price List</caption>
+
+            <tr>
+                <th>Product ID</th>
+                <th>Product Name</th>
+                <th>Category</th>
+                <th>Rating</th>
+                <th>Price (Rs)</th>
+            </tr>
+
+            <tr>
+                <td>UW-01</td>
+                <td>Short Shirt Jazlyn Black</td>
+                <td>Shirts</td>
+                <td>★★★★☆</td>
+                <td>2000</td>
+            </tr>
+
+            <tr>
+                <td>UW-02</td>
+                <td>Short Shirt Nessie Dark Green</td>
+                <td>Shirts</td>
+                <td>★★★★☆</td>
+                <td>2000</td>
+            </tr>
+
+            <tr>
+                <td>UW-03</td>
+                <td>Coach Jacket Steffi Knight Black</td>
+                <td>Jackets</td>
+                <td>★★★★★</td>
+                <td>3500</td>
+            </tr>
+
+            <tr>
+                <td>UW-04</td>
+                <td>Hoodie Moku Navy</td>
+                <td>Hoodies</td>
+                <td>★★★★☆</td>
+                <td>4000</td>
+            </tr>
+
+            <tr>
+                <td>UW-05</td>
+                <td>Hoodie Kagoshima Dark Oak</td>
+                <td>Hoodies</td>
+                <td>★★★★☆</td>
+                <td>4200</td>
+            </tr>
+
+            <tr>
+                <td>UW-06</td>
+                <td>Chore Jacket Vulka Navy</td>
+                <td>Jackets</td>
+                <td>★★★★★</td>
+                <td>4500</td>
+            </tr>
+
+        </table>
+    </div>
+
+    <!-- FOOTER -->
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="belowfooter">
+                &copy; Urban Wear Associates, 2025<br>
+                All rights reserved.<br>
+                <small>Developed by Umair, Nabiha & Amna</small>
+            </div>
+        </div>
+    </div>
 </body>
 
 </html>

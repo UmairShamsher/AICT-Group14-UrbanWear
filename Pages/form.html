@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+
+    <link rel="stylesheet" href="./src/css/main.css">
+
+    <style>
+        /* Fix form hidden behind fixed header */
+        .form-container {
+            margin-top: 120px;
+        }
+
+        /* Make form text black */
+        .formPage input,
+        .formPage select,
+        .formPage textarea {
+            color: #000;
+            background-color: #fff;
+        }
+
+        .formPage select option {
+            color: #000;
+        }
+
+        ::placeholder {
+            color: #000;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- Background (same as project) -->
+<style>
+    body {
+        background-image: url("./images/header/headerprod.jpg");
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+    }
+</style>
+
+<img src="./images/header/headerprod.jpg" style="display:none;">
+
+<!-- HEADER -->
+<div class="header">
+    <div class="container">
+        <div class="navbar">
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="./images/header/complogo.png" width="225">
+                </a>
+            </div>
+
+            <nav>
+                <ul class="nav-menu">
+                    <li class="nav-item"><a href="index.html">Home</a></li>
+                    <li class="nav-item"><a href="products.html">Products</a></li>
+                    <li class="nav-item"><a href="table.html">Price List</a></li>
+                    <li class="nav-item"><a href="form.html">Form</a></li>
+                </ul>
+            </nav>
+
+        </div>
+    </div>
+</div>
+
+<!-- FORM SECTION -->
+<div class="form-container">
+    <div class="container">
+        <div class="formPage">
+
+            <form class="showForm" style="display:flex; flex-direction:column;">
+                <h2>Customer Inquiry Form</h2>
+
+                <!-- NAME -->
+                <input type="text" placeholder="Full Name" required>
+
+                <!-- EMAIL -->
+                <input type="email" placeholder="Email Address" required>
+
+                <!-- DROPDOWN -->
+                <select required>
+                    <option value="">Select Inquiry Type</option>
+                    <option>Product Information</option>
+                    <option>Size Guide</option>
+                    <option>Order Support</option>
+                    <option>General Feedback</option>
+                </select>
+
+                <!-- RADIO BUTTONS -->
+                <div style="margin: 15px 0;">
+                    <label>
+                        <input type="radio" name="contact" required> Email
+                    </label>
+                    &nbsp;&nbsp;
+                    <label>
+                        <input type="radio" name="contact"> Phone
+                    </label>
+                </div>
+
+                <!-- EXTRA FIELD -->
+                <textarea placeholder="Your Message"
+                          style="width:280px;height:80px;border-radius:10px;padding:10px;"></textarea>
+
+                <!-- SUBMIT -->
+                <button type="submit" class="btn">Submit</button>
+            </form>
+
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
