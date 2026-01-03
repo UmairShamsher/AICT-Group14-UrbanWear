@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Account | Urban Wear</title>
+
+    <link rel="stylesheet" href="./src/css/main.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="icon" type="image/svg+xml" href="./images/header/favicon.svg">
+</head>
+
+<body>
+
+    <!-- Background image (same as index) -->
+    <style>
+        body {
+            background-image: url("./images/header/headerprod.jpg");
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover;
+        }
+    </style>
+
+    <img src="./images/header/headerprod.jpg" alt="" style="display:none;">
+
+    <!-- ================= HEADER ================= -->
+    <div class="header">
+        <div class="container">
+            <div class="navbar">
+
+                <div class="logo">
+                    <a href="./index.html">
+                        <img src="./images/header/complogo.png" alt="Urban Wear Logo" width="225">
+                    </a>
+                </div>
+
+                <nav>
+                    <ul class="nav-menu">
+                        <li class="nav-item"><a href="index.html">Home</a></li>
+                        <li class="nav-item"><a href="products.html">Products</a></li>
+                        <li class="nav-item"><a href="table.html">Price List</a></li>
+                        <li class="nav-item"><a href="form.html">Form</a></li>
+                        <li class="nav-item"><a href="#footer">Contact Us</a></li>
+                        <li class="nav-item"><a href="account.html">Account</a></li>
+                    </ul>
+                </nav>
+
+                <a href="./cart.html">
+                    <img class="cart" src="./images/header/cart.svg" alt="Cart">
+                </a>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- ================= ACCOUNT LOGIN ================= -->
+    <div class="container">
+        <div
+            style="max-width:400px; margin:120px auto 80px; text-align:center; background:rgba(0,0,0,0.6); padding:30px; border-radius:10px; color:#d1c9c9;">
+
+            <h1>Login</h1>
+            <input type="email" id="email" placeholder="Email" required style="width:100%; padding:10px; margin:10px 0;
+           background:#fff; color:#080303; border:2px solid #ff7a00;">
+
+            <input type="password" id="password" placeholder="Password" required style="width:100%; padding:10px; margin:10px 0;
+           background:#fff; color:#080303; border:2px solid #ff7a00;">
+
+
+            <button class="btn" onclick="loginUser()">Login</button>
+
+            <p id="error" style="color:#f3eeee; margin-top:10px;"></p>
+
+            <p style="font-size:14px; margin-top:15px;">
+                * Front-end only login for learning purposes
+            </p>
+
+        </div>
+    </div>
+
+
+    <!-- ================= FOOTER ================= -->
+    <div class="footer" id="footer">
+        <div class="container">
+            <div class="child">
+
+                <div class="footerChild1">
+                    <img src="./images/header/complogo.png" alt="Urban Wear">
+                    <h4>Mail us at:
+                        <a href="mailto:UrbanWear@gmail.com">UrbanWear@gmail.com</a>
+                    </h4>
+                </div>
+
+                <div class="footerChild2">
+                    <h3>Help</h3>
+                    <ul>
+                        <li>Payments</li>
+                        <li>Shipping</li>
+                        <li>Return Policy</li>
+                        <li>FAQ</li>
+                    </ul>
+                </div>
+
+                <div class="footerChild2">
+                    <h3>Our Socials</h3>
+                    <ul>
+                        <li>Instagram</li>
+                        <li>Facebook</li>
+                        <li>Twitter</li>
+                        <li>WhatsApp</li>
+                    </ul>
+                </div>
+
+                <div class="footerChild2">
+                    <h3>Store Address</h3>
+                    <ul>
+                        <li>
+                            Islamabad<br>
+                            Near Institute of Space Technology,<br>
+                            Pakistan.
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <div class="belowfooter">
+                &copy; UrbanWear Associates, 2025<br>
+                All rights reserved.
+                <small>Developed by Umair, Nabiha & Amna</small>
+            </div>
+        </div>
+    </div>
+    <script src="./src/js/script.js"></script>
+</body>
+
+</html>
