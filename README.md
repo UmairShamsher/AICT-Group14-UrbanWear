@@ -19,8 +19,8 @@ The website is intentionally kept simple, avoiding complex backend or cart funct
 
 ---
 
-## 🌐 Live Site URL
-
+## 🌐 Live Site URL (GitHub)
+https://github.com/UmairShamsher/AICT-Group14-UrbanWear.git
 🔗 **Live Website:**  
- 
+ https://umairshamsher.github.io/AICT-Group14-UrbanWear/
 
